@@ -1,5 +1,5 @@
 from app.negocio import nome_existe
-from app.negocio.backed import add_nome
+from app.negocio.backend import add_nome
 from app.utils.gerador import novo_nome
 
 
@@ -11,3 +11,7 @@ def main():
             break
 
     print(f'Criado novo nome de testes: "{nome}"')
+
+
+if __name__ == '__main__':
+    main()
